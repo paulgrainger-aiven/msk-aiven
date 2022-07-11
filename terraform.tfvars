@@ -1,0 +1,8 @@
+kafka_name   = "my-kafka-demo"
+kafka_plan   = "business-4"
+mm_name      = "my-mm-demo"
+mm_plan      = "startup-4"
+m3_name      = "my-m3-demo"
+m3_plan      = "startup-4"
+grafana_name = "my-grafana-demo"
+grafana_plan = "startup-2"

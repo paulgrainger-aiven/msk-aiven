@@ -7,7 +7,7 @@ variable "aiven_project" {
   default = "pgrainger-demo"
 }
 
-variable "cloud_name" {
+variable "cloud_name_gcp" {
   type    = string
   default = "google-us-west1"
 }
@@ -17,28 +17,20 @@ variable "cloud_name_aws" {
   default = "aws-us-east-1"
 }
 
-variable "kafka_plan" {
+variable "vpc_region_aws" {
   type    = string
-  default = "business-4"
+  default = "us-east-1"
 }
-
 
 variable "bootstrap_servers" {
     type    = string
     default = ""
 }
 
-variable "vpc_cidr_range" {
-    type    = string
-    default = ""
-}
+variable "aws_vpc_cidr_range" {}
+variable "aws_account_id" {}
+variable "aws_vpc_id" {}
 
-variable "aws_account_id" {
-    type    = string
-    default = ""
-}
-
-variable "aws_vpc_id" {
-    type    = string
-    default = ""
-}
+variable "gcp_vpc_cidr_range" {}
+variable "gcp_account_id" {}
+variable "gcp_vpc_id" {}

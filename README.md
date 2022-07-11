@@ -93,6 +93,6 @@ terraform apply
   -var="aws_vpc_cidr_range=$AWS_CIDR_RANGE" \
   -var="gcp_account_id=$GCP_ACCOUNT_ID" \
   -var="gcp_vpc_id=$GCP_VPC_ID" \
-  -var="gcp_vpc_cidr_range=$GCP_CIDR_RANGE" \  
+  -var="gcp_vpc_cidr_range=$GCP_CIDR_RANGE"
 
 ```

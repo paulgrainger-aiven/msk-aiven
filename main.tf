@@ -136,7 +136,7 @@ resource "aiven_m3db" "m3db-metrics" {
   service_name   = "m3db-metrics"
 
   m3db_user_config {
-    
+    m3db_version = 1.5
     namespaces {
       name = "default_ns"
       type = "unaggregated"
